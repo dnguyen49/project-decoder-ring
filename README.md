@@ -1,5 +1,5 @@
 # project-decoder-ring
-Project: Decoder ring
+## Project: Decoder ring
 
 You are planning a surprise birthday party for one of your friends who loves escape rooms and puzzles. What better way to practice your new coding skills than to build an application that will help you encode and decode all kinds of fun messages?
 ![image](https://user-images.githubusercontent.com/61990386/177915586-b845ca1d-e436-492a-93a4-f0be627c2cc0.png)
@@ -14,7 +14,7 @@ This project is designed to test your ability to build tricky algorithms as well
     Debugging through reading errors and using the VSCode debugger
 
 You will not need to make any edits to HTML or CSS for this project.
-Project setup
+### Project setup
 
 Download the Qualified assessment files to your computer.
 
@@ -32,7 +32,7 @@ To watch how the code you write affects the application website, you can run the
 
 npm start
 
-Instructions
+### Instructions
 
 You are tasked with building functions for an application that will either encode or decode a string using a variety of ciphers. For each cipher, you should make a series of tests using Mocha and Chai to confirm that your cipher works.
 
@@ -46,3 +46,5 @@ Below is a checklist of what you need to accomplish.
     [ ] Write tests for the polybius() function.
     [ ] Complete the substitution() function.
     [ ] Write tests for the substitution() function.
+#### Caesar shift
+![image](https://user-images.githubusercontent.com/61990386/177915687-63f1193f-3bb7-4617-818a-3cc50bb79423.png)
