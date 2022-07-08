@@ -147,7 +147,7 @@ When building the function, keep the following constraints and rules in mind:
     All the characters in the alphabet parameter must be unique. Otherwise, it should return false.
 
 Examples
-
+~~~
 substitution("thinkful", "xoyqmcgrukswaflnthdjpzibev"); //> 'jrufscpw'
 substitution("You are an excellent spy", "xoyqmcgrukswaflnthdjpzibev"); //> 'elp xhm xf mbymwwmfj dne'
 substitution("jrufscpw", "xoyqmcgrukswaflnthdjpzibev", false); //> 'thinkful'
@@ -157,5 +157,5 @@ substitution("y&ii$r&", "$wae&zrdxtfcygvuhbijnokmpl", false); //> "message"
 
 substitution("thinkful", "short"); //> false
 substitution("thinkful", "abcabcabcabcabcabcabcabcyz"); //> false
-
+~~~
 Note: In addition to needing to pass the tests and requirements in the instructions here, please review the Rubric Requirements for the human-graded part of this project in your Thinkful curriculum page.
