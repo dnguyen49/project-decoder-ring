@@ -12,8 +12,9 @@ const substitutionModule = (function () {
     if (alphabet.length!=26) return false;
     const alphabetSet = new Set(alphabet).size;
     if (alphabetSet!=26) return false;
+    const newInput = input.toLowerCase();
     if (!encode) {
-      let res = [...input].map((i) => {
+      let res = [...newInput].map((i) => {
         if (i===' ') return i;
         const charNum = alphabet.indexOf(i)+97;
         return String.fromCharCode(charNum);
@@ -21,7 +22,7 @@ const substitutionModule = (function () {
       return res.join('');
     }
     else {
-      let res = [...input].map((i) => {
+      let res = [...newInput].map((i) => {
         if (i===' ') return i;
         const indexString = i.charCodeAt()-97;
         return alphabet[indexString];
